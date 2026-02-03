@@ -46,11 +46,12 @@ function descargarFoto(ruta, nombre) {
     document.body.removeChild(link);
 }
 
-// Inicializar la galería cuando cargue la página
+/* Inicializar la galería cuando cargue la página
 window.addEventListener('load', () => {
     generatePhotosAndDownloadLinks();
-});
+});*/
 
 document.addEventListener('DOMContentLoaded', () => {
     generatePhotosAndDownloadLinks();
 });
+
