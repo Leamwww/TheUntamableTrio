@@ -51,8 +51,6 @@ window.addEventListener('load', () => {
     generatePhotosAndDownloadLinks();
 });
 
-/* document.addEventListener('DOMContentLoaded', () => {
-    generatePhotosAndDownloadLinks();
-});*/
+
 
 
